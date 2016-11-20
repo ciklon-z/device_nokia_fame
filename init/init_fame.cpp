@@ -96,6 +96,9 @@ void vendor_load_properties()
 							property_set("ro.product.device", "glee");
 							property_set("ro.product.model", "glee");
 						}
+						if (strcmp(modelnumber, "TYPE:RM-997\n") == 0) {
+							property_set("ro.product.device", "glee_cmcc");
+							property_set("ro.product.model", "glee_cmcc");
 					}
 					fclose(fp);
 				}
