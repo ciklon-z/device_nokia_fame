@@ -92,6 +92,10 @@ void vendor_load_properties()
 							property_set("ro.product.device", "glee");
 							property_set("ro.product.model", "glee");
 						}
+						if (strcmp(modelnumber, "TYPE:RM-917\n") == 0) {
+							property_set("ro.product.device", "fame");
+							property_set("ro.product.model", "fame");
+						}
 					}
 					fclose(fp);
 				}
