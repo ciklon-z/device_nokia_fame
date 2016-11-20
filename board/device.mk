@@ -5,7 +5,7 @@ PRODUCT_MANUFACTURER := Nokia
 PRODUCT_MODEL := fame
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := fame,glee,diana
+TARGET_OTA_ASSERT_DEVICE := fame,glee,fame_tmo
 
 # Device init
 TARGET_INIT_VENDOR_LIB := libinit_fame
