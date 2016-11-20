@@ -89,8 +89,8 @@ void vendor_load_properties()
 							property_set("ro.product.model", "fame");
 						}
 						if (strcmp(modelnumber, "TYPE:RM-917\n") == 0) {
-							property_set("ro.product.device", "diana");
-							property_set("ro.product.model", "diana");
+							property_set("ro.product.device", "fame_tmo");
+							property_set("ro.product.model", "fame_tmo");
 						}
 						if (strcmp(modelnumber, "TYPE:RM-998\n") == 0) {
 							property_set("ro.product.device", "glee");
