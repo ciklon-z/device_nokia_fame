@@ -1,8 +1,8 @@
 PRODUCT_DEVICE := fame
-PRODUCT_NAME := cm_fame
+PRODUCT_NAME := ev_fame
 PRODUCT_BRAND := Nokia
 PRODUCT_MANUFACTURER := Nokia
-PRODUCT_MODEL := fame
+PRODUCT_MODEL := 520
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := fame,glee,fame_tmo,glee_cmcc
