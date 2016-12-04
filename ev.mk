@@ -14,11 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common stuff
+$(call inherit-product, $(SRC_EVERVOLV_DIR)/config/apns.mk)
+$(call inherit-product, $(SRC_EVERVOLV_DIR)/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/nokia/fame/device.mk)
+$(call inherit-product, device/nokia/fame/device_fame.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 800
@@ -26,7 +28,7 @@ TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
 PRODUCT_DEVICE := fame
-PRODUCT_NAME := cm_fame
+PRODUCT_NAME := ev_fame
 PRODUCT_BRAND := Nokia
 PRODUCT_MANUFACTURER := Nokia
-PRODUCT_MODEL := fame
+PRODUCT_MODEL := 520
