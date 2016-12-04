@@ -20,6 +20,8 @@ DEVICE_PATH := device/nokia/fame
 # Board device headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
+TW_THEME := portrait_hdpi
+
 # Board device elements
 include $(DEVICE_PATH)/PlatformConfig.mk
 include $(DEVICE_PATH)/board/*.mk
