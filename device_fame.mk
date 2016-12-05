@@ -18,6 +18,11 @@
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
+# Omx
+PRODUCT_PACKAGES += \
+      libOmxCore \
+      libstagefrighthw
+      
 # Device specific overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
