@@ -23,7 +23,8 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Board device elements
 include $(DEVICE_PATH)/PlatformConfig.mk
 include $(DEVICE_PATH)/board/*.mk
-TARGET_NEEDS_TEXT_RELOCATIONS := true
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # Board device vendor
 -include vendor/sony/nicki/BoardConfigVendor.mk
