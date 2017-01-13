@@ -32,3 +32,8 @@ include $(LOCAL_PATH)/product/*.mk
 
 # Vendor product configurations
 $(call inherit-product, vendor/sony/nicki/nicki-vendor.mk)
+
+# Sensor
+PRODUCT_PACKAGES += \
+    sensors.msm8627 \
+    sensors.qcom
