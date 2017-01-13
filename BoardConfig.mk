@@ -23,6 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Board device elements
 include $(DEVICE_PATH)/PlatformConfig.mk
 include $(DEVICE_PATH)/board/*.mk
+TARGET_NEEDS_TEXT_RELOCATIONS := true
 
 # Board device vendor
 -include vendor/sony/nicki/BoardConfigVendor.mk
